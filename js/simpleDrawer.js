@@ -49,7 +49,7 @@
     }
 
     $("body").swipe({
-      //Generic swipe handler for all directions
+      allowPageScroll:"vertical",
       swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
         if (direction === "left" || direction === "right") {
           if (isOpen) {
