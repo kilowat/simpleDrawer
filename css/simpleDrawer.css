@@ -31,7 +31,7 @@
   margin-top: 15px;
   cursor: pointer;
   left: 15px;
-  position: absolute;
+  position: fixed;
   background-image: url(../images/ic_open.png);
   z-index: 100;
 }
