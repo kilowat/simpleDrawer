@@ -15,7 +15,7 @@
       'left': '-' + settings.width + 'px'
     });
 
-    drawerScroll = new IScroll('#' + self.attr('id'));
+   // drawerScroll = new IScroll('#' + self.attr('id'));
 
 
     function open() {
@@ -47,7 +47,7 @@
       }, settings.animateTime);
       isOpen = false;
     }
-
+/*
     $("body").swipe({
       allowPageScroll:"vertical",
       swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
@@ -60,7 +60,7 @@
         }
       }
     });
-
+*/
     $(settings.hamburgerClass).click(function () {
       if (isOpen) {
         close();
